@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Forkify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-navbar">
+        <div class="navbar">
+            <div class="image">
+                <img src="./logo.jfif" alt="Forkify Logo">
+            </div>
+            <div class="Input">
+                <input type="text" placeholder="Search Recipes" id="recipeInput">
+                <button id="recipeSearchBtn"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </div>
+        </div>
+    
+        <div class="navMenu">
+            <div class="addRecipe"><i class="fa-solid fa-plus"></i> ADD RECIPE</div>
+            <div class="bookMarks"><i class="fa-solid fa-bookmark"></i> BOOKMARKS</div>
+        </div>
+
+        <div class="container">
+            <h1>Recipes</h1>
+            <div id="recipeList"></div>
+            <div id="recipeDetails"></div> 
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
